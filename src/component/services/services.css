@@ -1,0 +1,51 @@
+.expContainer{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+    /* height:50vh; */
+    background-color: #f0f0f0;
+}
+
+.expContent{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.expContent p{
+    color:#9b9b9b;
+    /* font-size: 15px; */
+}
+
+.experiences{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 1;
+    width:65vw;
+}
+
+.expe{
+    border: 1px solid #fff;
+    padding: 25px;
+    width: 28vw;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.expe-heading{
+    line-height: 5px;
+}
+
+.expe-list{
+    line-height: 1.5;
+    font-size: .9rem;
+    color: #9B9B9B;
+}

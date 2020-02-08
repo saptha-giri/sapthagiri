@@ -1,0 +1,42 @@
+
+.homeContainer{
+    display: flex;
+    flex: 1;
+    height:80vh;
+    background-color: #f0f0f0;
+}
+
+.homeLeftContainer{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid; */
+}
+
+.homeRightContainer{
+    display: flex;
+    flex:1;
+    /* justify-content: center; */
+    align-items: left;
+
+    /* border: 1px solid; */
+}
+
+.mybutton {
+    color: #fbfbfb;
+    background-color: #00a4d0;
+    width: 125px;
+    height: 45px;
+    border-radius: 2px;
+    border: 1px solid #00a4d0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.homeSubContent{
+    color:#9b9b9b;
+}
