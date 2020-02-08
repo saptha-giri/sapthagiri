@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+import logo from '../../assets/logo.png';
 
 
 import './menuBar.css';
@@ -13,7 +14,7 @@ export default class MenuBar extends Component{
         return(
             <nav className="menuContainer">
                 <div className="leftContainer">
-                    <h1 onClick={this.scrollToTop}>Logo</h1>
+                    <img className="logoStyle" alt="logo" onClick={this.scrollToTop} src={logo}/>
                 </div>
                 <div className="rightContainer">
                     <ul className="menuContent">
@@ -54,6 +55,32 @@ export default class MenuBar extends Component{
                                 duration={500}
                             >
                                 Services
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link
+                                activeClass="active"
+                                to="hse"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                HSE & Quality
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link
+                                activeClass="active"
+                                to="mission"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                Mission & Vision
                             </Link>
                         </li>
     

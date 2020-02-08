@@ -4,6 +4,8 @@ import MenuBar from './component/menu-bar/menuBar.js';
 import Home from './component/home/home';
 import About from './component/about/about';
 import Services from './component/services/services';
+import Hse from './component/hseandquality/hse';
+import Mission from './component/mission/mission.js'
 import Contact from './component/contact/contact';
 import Footer from './component/footer/footer';
 
@@ -17,6 +19,8 @@ const App=()=> {
       <Home id="home"/>
       <About id="about"/>
       <Services id="services"/>
+      <Hse id="hse"/>
+      <Mission id="mission"/>
       <Contact id="contact"/>
       <Footer/>
     </div>

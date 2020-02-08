@@ -1,0 +1,25 @@
+.hseContainer{
+    display: flex;
+    flex: 1;
+    /*height:60vh;*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*background-color: #f0f0f0; */
+    /* border: 1px solid; */
+}
+
+
+.hseContentContainer{
+    display: flex;
+    flex:1;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+    
+}
+
+.hseContentContainer li{
+    color: #9B9B9B;
+}

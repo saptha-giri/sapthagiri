@@ -1,4 +1,4 @@
-.expContainer{
+.missionContainer{
     display: flex;
     flex: 1;
     justify-content: center;
@@ -8,23 +8,21 @@
     background-color: #fff;
 }
 
-.expContent{
+.missionContent{
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /*padding: 10px;*/
 }
 
-.expContent p{
+.missiContent p{
     color:#9b9b9b;
     /* font-size: 15px; */
 }
 
-.experiences{
+.missions{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -32,21 +30,26 @@
     /*width:65vw;*/
 }
 
-.expe{
+.missiLeft{
+    flex:1;
+}
+
+.missi{
     /*border: 1px solid #fff;*/
     padding: 15px;
     width: 40vw;
+    flex:1;
     /*margin: 10px;*/
     /*margin-bottom: 20px;*/
     /*border-radius: 15px;*/
     /*background: #fff;*/
 }
 
-.expe-heading{
+.missi-heading{
     line-height: 5px;
 }
 
-.expe-list{
+.missi-list{
     line-height: 1.5;
     font-size: .9rem;
     color: #9B9B9B;
