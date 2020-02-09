@@ -23,13 +23,11 @@ const Contact = (props)=>{
                         </div>
                         <div className="right-contact">
                             <div className="right-content">
-                                <h3>SVN RAJAN <br/> CEO</h3>
-                                <p>svnraja@ksserv.in</p>
-                                <p>91-7667239787</p>
+                                <h3>SVN Raju <br/> CEO</h3>
+                                <p>svnraja@ksserv.in<br/>+91-7397105010<br/>+91-9444000569</p>
 
                                 <h3>NV NAMBIAR<br/>GM-Marketing</h3>
-                                <p>nambiar@ksserv.in</p>
-                                <p>91-9444540757</p>
+                                <p>nambiar@ksserv.in<br/>+91-9080850156</p>
                             </div>
                         </div>
                 </div>

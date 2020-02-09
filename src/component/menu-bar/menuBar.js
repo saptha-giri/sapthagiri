@@ -84,18 +84,18 @@ export default class MenuBar extends Component{
                             </Link>
                         </li>
     
-                        {/* <li>
+                        <li>
                             <Link
                                 activeClass="active"
-                                to="portfolio"
+                                to="gallery"
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
                                 duration={500}
                             >
-                                Portfolio
+                                Gallery
                             </Link>
-                        </li> */}
+                        </li>
     
                         <li>
                             <Link

@@ -6,6 +6,7 @@ import About from './component/about/about';
 import Services from './component/services/services';
 import Hse from './component/hseandquality/hse';
 import Mission from './component/mission/mission.js'
+import Gallery from './component/gallery/gallery';
 import Contact from './component/contact/contact';
 import Footer from './component/footer/footer';
 
@@ -21,6 +22,7 @@ const App=()=> {
       <Services id="services"/>
       <Hse id="hse"/>
       <Mission id="mission"/>
+      <Gallery id="gallery"/>
       <Contact id="contact"/>
       <Footer/>
     </div>
