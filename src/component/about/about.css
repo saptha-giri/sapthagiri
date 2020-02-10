@@ -37,13 +37,13 @@
     flex:1;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
 
-    /* border: 1px solid; */
+    /* border: 1px solid green; */
 }
 
 .aboutRightContainer p{
-    width:30vw;
+    /* width:30vw; */
+    padding-right: 80px;
     color:#9b9b9b;
 }
 

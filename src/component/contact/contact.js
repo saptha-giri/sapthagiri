@@ -10,24 +10,32 @@ const Contact = (props)=>{
                 <div className="details-container">
                         <div className="left-contact">
                             <div className="form-items">
-                                <h3>Reg.Office </h3>
+                                <h3>Reginal Office </h3>
                                 <p>4th Floor Guna Building <br/>Annex 443 Anna Salai Taynampet<br/>Chennai 600 018</p>
-                                <p>Phone : 91 (0) 044-32220757<br/>Email : ksservices@ksserv.in</p>
+                                <p><i class="fa fa-phone fa-lg" aria-hidden="true"></i> &nbsp;: 91 (0) 044-32220757<br/>
+                                <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;: ksservices@ksserv.in</p>
                             </div>
                             <div className="form-items">
                             <h3>Factory Address </h3>
                             <p>D-99 ,DP Estate ,Thuvakudy<br/>Tiruchirapalli -620015<br/>Tamil Nadu INDIA</p>
-                            <p>Email : admin@ksserv.in</p>
+                            <p><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;: admin@ksserv.in</p>
                             </div>
 
                         </div>
                         <div className="right-contact">
                             <div className="right-content">
-                                <h3>SVN Raju <br/> CEO</h3>
-                                <p>svnraja@ksserv.in<br/>+91-7397105010<br/>+91-9444000569</p>
+                                <div className="cDetails">
+                                    <h3>S.V.N RAJU - CEO</h3>
+                                    <p><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;  svnraja@ksserv.in<br/>
+                                    <i class="fa fa-mobile fa-2x" aria-hidden="true"></i> &nbsp;  +91-7397105010<br/>
+                                    <i class="fa fa-phone fa-lg" aria-hidden="true"></i> &nbsp;+91-9444000569</p>
+                                </div>
 
-                                <h3>NV NAMBIAR<br/>GM-Marketing</h3>
-                                <p>nambiar@ksserv.in<br/>+91-9080850156</p>
+                                <div className="cDetails">
+                                    <h3>NV NAMBIAR - GM Marketing</h3>
+                                    <p><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;  nambiar@ksserv.in<br/>
+                                    <i class="fa fa-mobile fa-2x" aria-hidden="true"></i> &nbsp;  +91-9080850156</p>
+                                </div>
                             </div>
                         </div>
                 </div>

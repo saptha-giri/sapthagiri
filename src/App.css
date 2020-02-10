@@ -21,8 +21,10 @@
 body {
   overflow-y: scroll;
   scrollbar-color: #0A4C95 #C2D2E4;
+  font-family: 'Rubik', sans-serif;
 }
 
 h1{
   color: #7E3838;
 }
+

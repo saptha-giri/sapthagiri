@@ -16,13 +16,13 @@
 .full-width-container{
 	position: relative;
     flex:3;
-    border: 2px solid #FFB41D;
+    border: 1px solid #FFB41D;
 }
 
 .half-width-container{
 	position: relative;
     flex:2;
-    border: 2px solid #FFB41D;
+    border: 1px solid #FFB41D;
 }
 
 .image-style{

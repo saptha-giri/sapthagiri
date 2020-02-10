@@ -40,7 +40,7 @@ export default class MenuBar extends Component{
                                 offset={-70}
                                 duration={500}
                             >
-                                About Us
+                                About
                             </Link>
                         </li>
     
@@ -67,7 +67,7 @@ export default class MenuBar extends Component{
                                 offset={-70}
                                 duration={500}
                             >
-                                HSE & Quality
+                                Quality
                             </Link>
                         </li>
 
@@ -80,7 +80,7 @@ export default class MenuBar extends Component{
                                 offset={-70}
                                 duration={500}
                             >
-                                Mission & Vision
+                                Vision
                             </Link>
                         </li>
     

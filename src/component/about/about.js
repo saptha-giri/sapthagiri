@@ -21,10 +21,10 @@ const About = (props)=>{
                                 <span style={{height:'15%'}} title="2013-14"></span>
                             </li>
                             <li>
-                                <span style={{height:'50%'}} title="2014-15"></span>
+                                <span style={{height:'52%'}} title="2014-15"></span>
                             </li>
                             <li>
-                                <span style={{height:'75%'}} title="2015-16"></span>
+                                <span style={{height:'72%'}} title="2015-16"></span>
                             </li>
                         </ul>    
                 </div>

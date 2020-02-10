@@ -56,14 +56,14 @@ const Gallery = (props)=>{
 			</div>
 
             <div className="grid-inner-container">
+				<div className="full-width-container over-effect desktop">
+					<img alt="bodyCare" className='image-style' src={img9} />
+				</div>
 				<div className="half-width-container over-effect" >
 					<img alt="kits" className='image-style' src={img7} />
 				</div>
 				<div className="half-width-container over-effect" >
 					<img alt="faceCare" className='image-style' src={img8} />
-				</div>
-				<div className="full-width-container over-effect desktop">
-					<img alt="bodyCare" className='image-style' src={img9} />
 				</div>
 			</div>
 
@@ -80,14 +80,14 @@ const Gallery = (props)=>{
 			</div>
 
             <div className="grid-inner-container">
+				<div className="full-width-container over-effect desktop">
+					<img alt="bodyCare" className='image-style' src={img15} />
+				</div>
 				<div className="half-width-container over-effect" >
 					<img alt="kits" className='image-style' src={img13} />
 				</div>
 				<div className="half-width-container over-effect" >
 					<img alt="faceCare" className='image-style' src={img14} />
-				</div>
-				<div className="full-width-container over-effect desktop">
-					<img alt="bodyCare" className='image-style' src={img15} />
 				</div>
 			</div>
 
