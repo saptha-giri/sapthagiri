@@ -6,7 +6,7 @@ const About = (props)=>{
     return(
         <div className="aboutContainer section">
             <div className="aboutContentContainer section-content" id={props.id}>
-            <h1>About Us</h1>
+            <h1>About Me</h1>
                 <div style={{
                         display:"flex",
                         justifyContent:"center"
@@ -15,16 +15,16 @@ const About = (props)=>{
                     <p>Financial growth in INR lakhs</p>
                     <ul className="chart">
                             <li>
-                                <span style={{height:'5%'}} title="2012-13"></span>
+                                <span style={{height:'90%'}} title="HTML 5"></span>
                             </li>
                             <li>
-                                <span style={{height:'15%'}} title="2013-14"></span>
+                                <span style={{height:'80%'}} title="css"></span>
                             </li>
                             <li>
-                                <span style={{height:'52%'}} title="2014-15"></span>
+                                <span style={{height:'85%'}} title="javascript"></span>
                             </li>
                             <li>
-                                <span style={{height:'72%'}} title="2015-16"></span>
+                                <span style={{height:'95%'}} title="React js"></span>
                             </li>
                         </ul>    
                 </div>
